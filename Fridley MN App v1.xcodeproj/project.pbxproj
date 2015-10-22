@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB93C1211BD8218E00FC8C5A /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C1201BD8218E00FC8C5A /* ViewControllerThree.swift */; };
+		ABB7DB251BD7F709008D34AF /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7DB241BD7F709008D34AF /* ViewControllerTwo.swift */; };
 		ABFB3BD91BD71508005C61A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB3BD81BD71508005C61A0 /* AppDelegate.swift */; };
 		ABFB3BDB1BD71508005C61A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB3BDA1BD71508005C61A0 /* ViewController.swift */; };
 		ABFB3BDE1BD71508005C61A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFB3BDC1BD71508005C61A0 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB93C1201BD8218E00FC8C5A /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		ABB7DB241BD7F709008D34AF /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		ABFB3BD51BD71508005C61A0 /* Fridley MN App v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fridley MN App v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFB3BD81BD71508005C61A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFB3BDA1BD71508005C61A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,15 +60,41 @@
 		ABFB3BD71BD71508005C61A0 /* Fridley MN App v1 */ = {
 			isa = PBXGroup;
 			children = (
+				ABFB3BEF1BD716AF005C61A0 /* Controller */,
+				ABFB3BEE1BD716AA005C61A0 /* View */,
+				ABFB3BED1BD716A5005C61A0 /* Model */,
 				ABFB3BD81BD71508005C61A0 /* AppDelegate.swift */,
-				ABFB3BDA1BD71508005C61A0 /* ViewController.swift */,
-				ABFB3BDC1BD71508005C61A0 /* Main.storyboard */,
 				ABFB3BE21BD71508005C61A0 /* Assets.xcassets */,
 				ABFB3BE41BD71508005C61A0 /* LaunchScreen.storyboard */,
 				ABFB3BE71BD71508005C61A0 /* Info.plist */,
 				ABFB3BDF1BD71508005C61A0 /* Fridley_MN_App_v1.xcdatamodeld */,
 			);
 			path = "Fridley MN App v1";
+			sourceTree = "<group>";
+		};
+		ABFB3BED1BD716A5005C61A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABFB3BEE1BD716AA005C61A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB3BDC1BD71508005C61A0 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ABFB3BEF1BD716AF005C61A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB3BDA1BD71508005C61A0 /* ViewController.swift */,
+				ABB7DB241BD7F709008D34AF /* ViewControllerTwo.swift */,
+				AB93C1201BD8218E00FC8C5A /* ViewControllerThree.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB93C1211BD8218E00FC8C5A /* ViewControllerThree.swift in Sources */,
 				ABFB3BE11BD71508005C61A0 /* Fridley_MN_App_v1.xcdatamodeld in Sources */,
 				ABFB3BDB1BD71508005C61A0 /* ViewController.swift in Sources */,
 				ABFB3BD91BD71508005C61A0 /* AppDelegate.swift in Sources */,
+				ABB7DB251BD7F709008D34AF /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +321,7 @@
 				ABFB3BEC1BD71508005C61A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
